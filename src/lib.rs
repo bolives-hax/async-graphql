@@ -179,7 +179,7 @@ mod subscription;
 mod validation;
 
 pub mod context;
-#[cfg(feature = "dataloader")]
+//#[cfg(feature = "dataloader")]
 #[cfg_attr(docsrs, doc(cfg(feature = "dataloader")))]
 pub mod dataloader;
 pub mod extensions;
