@@ -12,7 +12,9 @@ keywords = ["futures", "async", "graphql", "axum"]
 categories = ["network-programming", "asynchronous"]
 
 [dependencies]
-async-graphql = { path = "../..", version = "3.0.37" }
+# TODO V 
+async-graphql = { path = "../.." }
+#async-graphql = { path = "../..", version = "3.0.37" }
 
 async-trait = "0.1.51"
 axum = { version = "0.5.1", features = ["ws", "headers"] }
